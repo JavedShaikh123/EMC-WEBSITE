@@ -7,10 +7,10 @@ const ResourcesSection = () => {
   const resources = [
     {
       type: 'Article',
-      tag: 'Strategy',
-      title: 'Future of leadership in digital transformation: 5 ways to unlock success',
+      tag: 'Recruitment',
+      title: 'Global Recruitment: Navigating the Talent Crunch Across US, India, and the Middle East',
       image: 'https://images.unsplash.com/photo-1573164574511-73c773193279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85',
-      readTime: '5 min read'
+      readTime: '6 min read'
     },
     {
       type: 'Article', 
