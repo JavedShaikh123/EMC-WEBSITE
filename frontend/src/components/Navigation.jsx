@@ -73,23 +73,26 @@ const Navigation = () => {
                 onMouseEnter={() => setActiveDropdown(item.name)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center space-x-1 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200">
+                <button className="flex items-center space-x-1 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 py-2">
                   <span>{item.name}</span>
                   <ChevronDown className="h-4 w-4" />
                 </button>
                 
                 {/* Dropdown */}
                 {activeDropdown === item.name && (
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-4 z-50">
-                    {item.items.map((subItem) => (
-                      <Link
-                        key={subItem.name}
-                        to={subItem.href}
-                        className="block px-6 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors duration-200"
-                      >
-                        {subItem.name}
-                      </Link>
-                    ))}
+                  <div className="absolute top-full left-0 pt-2 z-50">
+                    <div className="w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-4">
+                      {item.items.map((subItem) => (
+                        <Link
+                          key={subItem.name}
+                          to={subItem.href}
+                          className="block px-6 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors duration-200"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          {subItem.name}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
