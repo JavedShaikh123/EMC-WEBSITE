@@ -132,28 +132,28 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
