@@ -118,7 +118,7 @@ const Navigation = () => {
               {navigationItems.map((item) => (
                 <div key={item.name}>
                   <button 
-                    className="flex items-center justify-between w-full text-left font-medium text-gray-700 hover:text-orange-600 transition-colors"
+                    className="flex items-center justify-between w-full text-left font-medium text-gray-700 hover:text-purple-600 transition-colors"
                     onClick={() => setActiveDropdown(activeDropdown === item.name ? null : item.name)}
                   >
                     {item.name}
