@@ -97,8 +97,8 @@ const Navigation = () => {
           
           {/* CTA Button and Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <Button className="hidden md:flex bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold rounded-full px-6">
-              Contact Us
+            <Button className="hidden md:flex bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full px-6">
+              Contact us
             </Button>
             
             {/* Mobile menu button */}
