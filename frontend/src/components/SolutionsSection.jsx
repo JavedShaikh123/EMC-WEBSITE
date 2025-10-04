@@ -144,7 +144,7 @@ const SolutionsSection = () => {
                 </div>
                 
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-orange-600 transition-colors">
+                  <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-purple-600 transition-colors">
                     {solution.title}
                   </h3>
                   
