@@ -110,7 +110,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-orange-500 via-pink-500 to-purple-600 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-700 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0" style={{
