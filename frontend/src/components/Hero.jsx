@@ -60,7 +60,7 @@ const Hero = () => {
                     loop
                     playsInline
                   >
-                    <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1c9a9a4a4&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
+                    <source src="https://videos.pexels.com/video-files/3196034/3196034-uhd_2560_1440_25fps.mp4" type="video/mp4" />
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -85,7 +85,7 @@ const Hero = () => {
                     loop
                     playsInline
                   >
-                    <source src="https://player.vimeo.com/external/459879808.sd.mp4?s=7f9a1b0b0b6b7b8b9b0b1b2b3b4b5b6b7b8b9b0b&profile_id=165" type="video/mp4" />
+                    <source src="https://videos.pexels.com/video-files/4226861/4226861-uhd_2560_1440_24fps.mp4" type="video/mp4" />
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -105,7 +105,7 @@ const Hero = () => {
                     loop
                     playsInline
                   >
-                    <source src="https://player.vimeo.com/external/427016456.sd.mp4?s=6f8b9c0c1c2c3c4c5c6c7c8c9c0c1c2c3c4c5c6c&profile_id=165" type="video/mp4" />
+                    <source src="https://videos.pexels.com/video-files/5725953/5725953-uhd_2560_1440_25fps.mp4" type="video/mp4" />
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -125,7 +125,7 @@ const Hero = () => {
                     loop
                     playsInline
                   >
-                    <source src="https://player.vimeo.com/external/415298717.sd.mp4?s=5e7f8g9g0g1g2g3g4g5g6g7g8g9g0g1g2g3g4g5g&profile_id=165" type="video/mp4" />
+                    <source src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4" type="video/mp4" />
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
