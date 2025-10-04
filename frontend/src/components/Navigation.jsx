@@ -103,7 +103,10 @@ const Navigation = () => {
           
           {/* CTA Button and Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <Button className="hidden md:flex bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full px-6">
+            <Button 
+              className="hidden md:flex bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full px-6"
+              onClick={() => setIsContactModalOpen(true)}
+            >
               Contact us
             </Button>
             
