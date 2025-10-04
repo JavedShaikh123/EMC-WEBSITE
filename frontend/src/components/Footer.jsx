@@ -162,13 +162,13 @@ const Footer = () => {
             
             {/* Legal links */}
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
                 Cookie Policy
               </a>
             </div>
