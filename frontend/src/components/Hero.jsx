@@ -48,102 +48,82 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right side - 4 Circular Video Clips (3 Females, 1 Male) */}
-            <div className="grid grid-cols-2 gap-8">
-              {/* Video 1 - Female Executive Leadership Discussion */}
-              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                <iframe
-                  className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/embed/sQpBBhNkkls?autoplay=1&mute=1&loop=1&playlist=sQpBBhNkkls&controls=0&showinfo=0&rel=0&modestbranding=1&start=10"
-                  title="Female Executive Leadership"
-                  frameBorder="0"
-                  allow="autoplay; muted"
-                  allowFullScreen
-                ></iframe>
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                    <Play className="h-6 w-6 text-purple-600 ml-1" />
+            {/* Right side - Professional Executive Images */}
+            <div className="relative">
+              {/* Main hero image */}
+              <div className="w-full max-w-lg mx-auto">
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+                  <img
+                    src="https://images.unsplash.com/photo-1573164574511-73c773193279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
+                    alt="Executive Leadership Team"
+                    className="w-full h-96 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
+                  <div className="absolute bottom-6 left-6 right-6 text-white">
+                    <h3 className="font-bold text-xl mb-2">Executive Leadership</h3>
+                    <p className="text-white/80">Driving transformation across global markets</p>
                   </div>
                 </div>
               </div>
 
-              {/* Video 2 - Female Business Strategy */}
-              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                <iframe
-                  className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/embed/GsyNOl6StQ4?autoplay=1&mute=1&loop=1&playlist=GsyNOl6StQ4&controls=0&showinfo=0&rel=0&modestbranding=1&start=15"
-                  title="Female Business Strategy"
-                  frameBorder="0"
-                  allow="autoplay; muted"
-                  allowFullScreen
-                ></iframe>
-                <div className="absolute inset-0 bg-gradient-to-t from-pink-900/20 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                    <Play className="h-6 w-6 text-purple-600 ml-1" />
-                  </div>
+              {/* Floating circular images */}
+              <div className="absolute -top-8 -left-8">
+                <div className="w-24 h-24 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                  <img
+                    src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
+                    alt="Female Executive"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
-              {/* Video 3 - Male Executive Presentation */}
-              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                <iframe
-                  className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/embed/ZCAC2zKnb34?autoplay=1&mute=1&loop=1&playlist=ZCAC2zKnb34&controls=0&showinfo=0&rel=0&modestbranding=1&start=20"
-                  title="Male Executive Presentation"
-                  frameBorder="0"
-                  allow="autoplay; muted"
-                  allowFullScreen
-                ></iframe>
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                    <Play className="h-6 w-6 text-purple-600 ml-1" />
-                  </div>
+              <div className="absolute -top-4 -right-12">
+                <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                  <img
+                    src="https://images.unsplash.com/photo-1562935345-5080389daccd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
+                    alt="Business Professional"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
-              {/* Video 4 - Female Corporate Interview */}
-              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                <iframe
-                  className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/embed/WQFkHdkdAXY?autoplay=1&mute=1&loop=1&playlist=WQFkHdkdAXY&controls=0&showinfo=0&rel=0&modestbranding=1&start=25"
-                  title="Female Corporate Interview"
-                  frameBorder="0"
-                  allow="autoplay; muted"
-                  allowFullScreen
-                ></iframe>
-                <div className="absolute inset-0 bg-gradient-to-t from-pink-900/20 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                    <Play className="h-6 w-6 text-purple-600 ml-1" />
-                  </div>
+              <div className="absolute -bottom-6 -left-6">
+                <div className="w-28 h-28 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                  <img
+                    src="https://images.pexels.com/photos/5990271/pexels-photo-5990271.jpeg"
+                    alt="Female Executive"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
-              {/* Podcast highlight card */}
-              <div className="col-span-2 bg-white rounded-2xl p-6 shadow-xl max-w-md mx-auto mt-8">
-                <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
-                    <Play className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900">The Executive Edge Podcast</h4>
-                    <p className="text-gray-600 text-sm">Weekly corporate insights</p>
-                  </div>
+              <div className="absolute -bottom-8 -right-4">
+                <div className="w-20 h-20 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                  <img
+                    src="https://images.pexels.com/photos/8353821/pexels-photo-8353821.jpeg"
+                    alt="Corporate Leader"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <p className="text-gray-700 text-sm mb-4">
-                  Join Mohammed Javed Shaikh and industry experts discussing talent acquisition strategies and executive leadership.
-                </p>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white w-full"
-                >
-                  Watch Latest Episode
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+              </div>
+
+              {/* Floating stats cards */}
+              <div className="absolute top-1/2 -right-20 bg-white rounded-xl p-4 shadow-lg">
+                <div className="text-center">
+                  <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    250+
+                  </div>
+                  <div className="text-gray-600 text-xs">Executives Placed</div>
+                </div>
+              </div>
+
+              <div className="absolute bottom-1/4 -left-16 bg-white rounded-xl p-4 shadow-lg">
+                <div className="text-center">
+                  <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    25+
+                  </div>
+                  <div className="text-gray-600 text-xs">Countries</div>
+                </div>
               </div>
             </div>
           </div>
