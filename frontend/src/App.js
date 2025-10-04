@@ -9,7 +9,7 @@ import SolutionsSection from './components/SolutionsSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
-import { Toaster } from './components/ui/sonner';
+import { Toaster } from './components/ui/toaster';
 import './App.css';
 
 const Home = () => {
