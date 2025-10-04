@@ -81,11 +81,8 @@ const ContactModal = ({ isOpen, onClose }) => {
                 <Globe className="h-5 w-5 text-purple-600" />
               </div>
               <div>
-                <p className="font-semibold text-gray-900">Websites</p>
-                <a href="https://www.emcindia.in" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 transition-colors text-sm block">
-                  www.emcindia.in
-                </a>
-                <a href="https://www.emc-us.com" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 transition-colors text-sm">
+                <p className="font-semibold text-gray-900">Website</p>
+                <a href="https://www.emc-us.com" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 transition-colors">
                   www.emc-us.com
                 </a>
               </div>
