@@ -133,7 +133,7 @@ const Navigation = () => {
                         <a
                           key={subItem.name}
                           href={subItem.href}
-                          className="block py-2 text-gray-600 hover:text-orange-600 transition-colors"
+                          className="block py-2 text-gray-600 hover:text-purple-600 transition-colors"
                         >
                           {subItem.name}
                         </a>
