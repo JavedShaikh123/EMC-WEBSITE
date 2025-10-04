@@ -22,9 +22,9 @@ const ResourcesSection = () => {
     {
       type: 'Article',
       tag: 'Leadership',
-      title: '5 ways to prepare for the future of executive leadership',
+      title: 'Redefining the Future of Executive Leadership: Strategies for Visionary Organizations',
       image: 'https://images.unsplash.com/photo-1562935345-5080389daccd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85',
-      readTime: '6 min read'
+      readTime: '8 min read'
     },
     {
       type: 'Case study',
