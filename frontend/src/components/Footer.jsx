@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Your trusted partner in driving business transformation and strategic excellence. 
+              Led by Mohammed Javed Shaikh, EMC is your trusted partner in driving business transformation and strategic excellence across India, USA, and Middle East. 
               We combine deep expertise with innovative approaches to help you achieve breakthrough results.
             </p>
             
