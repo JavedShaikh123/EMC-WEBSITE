@@ -50,10 +50,13 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                EMC-US
+                EMC
               </h3>
               <p className="text-gray-400 mt-2">
                 Executive Management Consulting
+              </p>
+              <p className="text-gray-500 text-sm mt-1">
+                INDIA | USA | MIDDLE EAST
               </p>
             </div>
             
