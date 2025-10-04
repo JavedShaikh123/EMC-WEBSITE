@@ -48,104 +48,106 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right side - Large Circular Video Clips */}
-            <div className="relative flex flex-col space-y-8">
-              {/* Top row - Two large circular videos */}
-              <div className="flex justify-center space-x-8">
-                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  >
-                    <source src="https://videos.pexels.com/video-files/3196034/3196034-uhd_2560_1440_25fps.mp4" type="video/mp4" />
-                  </video>
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-6 w-6 text-purple-600 ml-1" />
-                    </div>
-                  </div>
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-sm mb-1">Executive Strategy</h3>
-                    <p className="text-xs text-white/80">Leadership discussion</p>
-                  </div>
-                </div>
-
-                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  >
-                    <source src="https://videos.pexels.com/video-files/4226861/4226861-uhd_2560_1440_24fps.mp4" type="video/mp4" />
-                  </video>
-                  <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-6 w-6 text-purple-600 ml-1" />
-                    </div>
-                  </div>
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-sm mb-1">Talent Acquisition</h3>
-                    <p className="text-xs text-white/80">Corporate interview</p>
+            {/* Right side - 5 Circular Video Clips */}
+            <div className="grid grid-cols-2 gap-8">
+              {/* Video 1 - Corporate Executive Presentation */}
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+                <iframe
+                  className="w-full h-full object-cover scale-150"
+                  src="https://www.youtube.com/embed/TQMbvJNRpLE?autoplay=1&mute=1&loop=1&playlist=TQMbvJNRpLE&controls=0&showinfo=0&rel=0&modestbranding=1"
+                  title="Executive Presentation"
+                  frameBorder="0"
+                  allow="autoplay; muted"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-purple-600 ml-1" />
                   </div>
                 </div>
               </div>
 
-              {/* Bottom row - Two large circular videos */}
-              <div className="flex justify-center space-x-8">
-                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  >
-                    <source src="https://videos.pexels.com/video-files/5725953/5725953-uhd_2560_1440_25fps.mp4" type="video/mp4" />
-                  </video>
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-6 w-6 text-purple-600 ml-1" />
-                    </div>
-                  </div>
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-sm mb-1">Business Growth</h3>
-                    <p className="text-xs text-white/80">Executive presentation</p>
+              {/* Video 2 - Business Discussion */}
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+                <iframe
+                  className="w-full h-full object-cover scale-150"
+                  src="https://www.youtube.com/embed/yIdWcWlyNOY?autoplay=1&mute=1&loop=1&playlist=yIdWcWlyNOY&controls=0&showinfo=0&rel=0&modestbranding=1"
+                  title="Business Discussion"
+                  frameBorder="0"
+                  allow="autoplay; muted"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute inset-0 bg-gradient-to-t from-pink-900/20 to-transparent"></div>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-purple-600 ml-1" />
                   </div>
                 </div>
+              </div>
 
-                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                  >
-                    <source src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4" type="video/mp4" />
-                  </video>
-                  <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
+              {/* Video 3 - Leadership Talk */}
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+                <iframe
+                  className="w-full h-full object-cover scale-150"
+                  src="https://www.youtube.com/embed/ZCAC2zKnb34?autoplay=1&mute=1&loop=1&playlist=ZCAC2zKnb34&controls=0&showinfo=0&rel=0&modestbranding=1"
+                  title="Leadership Talk"
+                  frameBorder="0"
+                  allow="autoplay; muted"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-purple-600 ml-1" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Video 4 - Corporate Strategy */}
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+                <iframe
+                  className="w-full h-full object-cover scale-150"
+                  src="https://www.youtube.com/embed/fvoLmsXKkYM?autoplay=1&mute=1&loop=1&playlist=fvoLmsXKkYM&controls=0&showinfo=0&rel=0&modestbranding=1"
+                  title="Corporate Strategy"
+                  frameBorder="0"
+                  allow="autoplay; muted"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute inset-0 bg-gradient-to-t from-pink-900/20 to-transparent"></div>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-purple-600 ml-1" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Video 5 - Center Bottom Executive Interview */}
+              <div className="col-span-2 flex justify-center mt-4">
+                <div className="w-56 h-56 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+                  <iframe
+                    className="w-full h-full object-cover scale-150"
+                    src="https://www.youtube.com/embed/78qqGU6ki4A?autoplay=1&mute=1&loop=1&playlist=78qqGU6ki4A&controls=0&showinfo=0&rel=0&modestbranding=1"
+                    title="Executive Interview"
+                    frameBorder="0"
+                    allow="autoplay; muted"
+                    allowFullScreen
+                  ></iframe>
+                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-6 w-6 text-purple-600 ml-1" />
+                    <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center">
+                      <Play className="h-7 w-7 text-purple-600 ml-1" />
                     </div>
                   </div>
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-sm mb-1">Team Leadership</h3>
-                    <p className="text-xs text-white/80">Corporate training</p>
+                  <div className="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="font-bold text-sm mb-1">Executive Interview</h3>
+                    <p className="text-xs text-white/80">Leadership insights</p>
                   </div>
                 </div>
               </div>
 
               {/* Podcast highlight card */}
-              <div className="bg-white rounded-2xl p-6 shadow-xl">
+              <div className="col-span-2 bg-white rounded-2xl p-6 shadow-xl max-w-md mx-auto mt-6">
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
                     <Play className="h-6 w-6 text-white" />
@@ -158,9 +160,14 @@ const Hero = () => {
                 <p className="text-gray-700 text-sm mb-4">
                   Join Mohammed Javed Shaikh and industry experts discussing talent acquisition strategies and executive leadership.
                 </p>
-                <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white w-full"
+                >
                   Watch Latest Episode
-                </button>
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
               </div>
             </div>
           </div>
