@@ -48,14 +48,14 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right side - 5 Circular Video Clips */}
+            {/* Right side - 4 Circular Video Clips (3 Females, 1 Male) */}
             <div className="grid grid-cols-2 gap-8">
-              {/* Video 1 - Corporate Executive Presentation */}
-              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+              {/* Video 1 - Female Executive Leadership Discussion */}
+              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                 <iframe
                   className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/TQMbvJNRpLE?autoplay=1&mute=1&loop=1&playlist=TQMbvJNRpLE&controls=0&showinfo=0&rel=0&modestbranding=1"
-                  title="Executive Presentation"
+                  src="https://www.youtube.com/embed/embed/sQpBBhNkkls?autoplay=1&mute=1&loop=1&playlist=sQpBBhNkkls&controls=0&showinfo=0&rel=0&modestbranding=1&start=10"
+                  title="Female Executive Leadership"
                   frameBorder="0"
                   allow="autoplay; muted"
                   allowFullScreen
@@ -68,12 +68,12 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Video 2 - Business Discussion */}
-              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+              {/* Video 2 - Female Business Strategy */}
+              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                 <iframe
                   className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/yIdWcWlyNOY?autoplay=1&mute=1&loop=1&playlist=yIdWcWlyNOY&controls=0&showinfo=0&rel=0&modestbranding=1"
-                  title="Business Discussion"
+                  src="https://www.youtube.com/embed/embed/GsyNOl6StQ4?autoplay=1&mute=1&loop=1&playlist=GsyNOl6StQ4&controls=0&showinfo=0&rel=0&modestbranding=1&start=15"
+                  title="Female Business Strategy"
                   frameBorder="0"
                   allow="autoplay; muted"
                   allowFullScreen
@@ -86,12 +86,12 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Video 3 - Leadership Talk */}
-              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+              {/* Video 3 - Male Executive Presentation */}
+              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                 <iframe
                   className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/ZCAC2zKnb34?autoplay=1&mute=1&loop=1&playlist=ZCAC2zKnb34&controls=0&showinfo=0&rel=0&modestbranding=1"
-                  title="Leadership Talk"
+                  src="https://www.youtube.com/embed/embed/ZCAC2zKnb34?autoplay=1&mute=1&loop=1&playlist=ZCAC2zKnb34&controls=0&showinfo=0&rel=0&modestbranding=1&start=20"
+                  title="Male Executive Presentation"
                   frameBorder="0"
                   allow="autoplay; muted"
                   allowFullScreen
@@ -104,12 +104,12 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Video 4 - Corporate Strategy */}
-              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+              {/* Video 4 - Female Corporate Interview */}
+              <div className="w-52 h-52 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                 <iframe
                   className="w-full h-full object-cover scale-150"
-                  src="https://www.youtube.com/embed/fvoLmsXKkYM?autoplay=1&mute=1&loop=1&playlist=fvoLmsXKkYM&controls=0&showinfo=0&rel=0&modestbranding=1"
-                  title="Corporate Strategy"
+                  src="https://www.youtube.com/embed/embed/WQFkHdkdAXY?autoplay=1&mute=1&loop=1&playlist=WQFkHdkdAXY&controls=0&showinfo=0&rel=0&modestbranding=1&start=25"
+                  title="Female Corporate Interview"
                   frameBorder="0"
                   allow="autoplay; muted"
                   allowFullScreen
@@ -118,36 +118,12 @@ const Hero = () => {
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
                     <Play className="h-6 w-6 text-purple-600 ml-1" />
-                  </div>
-                </div>
-              </div>
-
-              {/* Video 5 - Center Bottom Executive Interview */}
-              <div className="col-span-2 flex justify-center mt-4">
-                <div className="w-56 h-56 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
-                  <iframe
-                    className="w-full h-full object-cover scale-150"
-                    src="https://www.youtube.com/embed/78qqGU6ki4A?autoplay=1&mute=1&loop=1&playlist=78qqGU6ki4A&controls=0&showinfo=0&rel=0&modestbranding=1"
-                    title="Executive Interview"
-                    frameBorder="0"
-                    allow="autoplay; muted"
-                    allowFullScreen
-                  ></iframe>
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-7 w-7 text-purple-600 ml-1" />
-                    </div>
-                  </div>
-                  <div className="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-sm mb-1">Executive Interview</h3>
-                    <p className="text-xs text-white/80">Leadership insights</p>
                   </div>
                 </div>
               </div>
 
               {/* Podcast highlight card */}
-              <div className="col-span-2 bg-white rounded-2xl p-6 shadow-xl max-w-md mx-auto mt-6">
+              <div className="col-span-2 bg-white rounded-2xl p-6 shadow-xl max-w-md mx-auto mt-8">
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
                     <Play className="h-6 w-6 text-white" />
