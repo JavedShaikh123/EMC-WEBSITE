@@ -154,7 +154,7 @@ const SolutionsSection = () => {
                   
                   <Button 
                     variant="outline" 
-                    className="group/btn border-orange-500 text-orange-600 hover:bg-orange-500 hover:text-white transition-all duration-300"
+                    className="group/btn border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300"
                   >
                     See solution
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
