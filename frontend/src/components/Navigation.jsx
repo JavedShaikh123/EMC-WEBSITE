@@ -104,7 +104,7 @@ const Navigation = () => {
             {/* Mobile menu button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden p-2 rounded-md text-gray-700 hover:text-orange-600 transition-colors"
+              className="lg:hidden p-2 rounded-md text-gray-700 hover:text-purple-600 transition-colors"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
