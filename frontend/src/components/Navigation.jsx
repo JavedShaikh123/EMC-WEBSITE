@@ -82,13 +82,13 @@ const Navigation = () => {
                 {activeDropdown === item.name && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-4 z-50">
                     {item.items.map((subItem) => (
-                      <a
+                      <Link
                         key={subItem.name}
-                        href={subItem.href}
+                        to={subItem.href}
                         className="block px-6 py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors duration-200"
                       >
                         {subItem.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
