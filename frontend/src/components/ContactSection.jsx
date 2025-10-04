@@ -135,8 +135,8 @@ const ContactSection = () => {
                       Let's be partners
                     </h2>
                     <p className="text-gray-600 text-lg">
-                      Please complete the form and Mohammed Javed Shaikh or an EMC representative will contact you promptly. 
-                      See how we can help move your business strategy forward across India, USA, and Middle East.
+                      Please complete the form and an EMC representative will contact you promptly. 
+                      See how we can help move your business strategy forward.
                     </p>
                   </div>
                   
