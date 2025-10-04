@@ -167,6 +167,12 @@ const Navigation = () => {
           </div>
         )}
       </div>
+      
+      {/* Contact Modal */}
+      <ContactModal 
+        isOpen={isContactModalOpen} 
+        onClose={() => setIsContactModalOpen(false)} 
+      />
     </nav>
   );
 };
