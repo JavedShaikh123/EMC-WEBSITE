@@ -19,7 +19,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           {/* Mohammed Javed Shaikh Profile */}
           <div className="text-center mb-6">
             <div className="w-20 h-20 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
-              MJS
+              EMC
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-1">
               Mohammed Javed Shaikh
