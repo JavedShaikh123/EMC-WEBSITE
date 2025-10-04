@@ -131,13 +131,13 @@ const Navigation = () => {
                   {activeDropdown === item.name && (
                     <div className="mt-2 pl-4 space-y-2">
                       {item.items.map((subItem) => (
-                        <a
+                        <Link
                           key={subItem.name}
-                          href={subItem.href}
+                          to={subItem.href}
                           className="block py-2 text-gray-600 hover:text-purple-600 transition-colors"
                         >
                           {subItem.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   )}
