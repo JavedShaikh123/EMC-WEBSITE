@@ -83,7 +83,7 @@ const ContactSection = () => {
       if (response.ok) {
         toast({
           title: "Message sent successfully!",
-          description: "Mohammed Javed Shaikh or an EMC representative will contact you promptly.",
+          description: "An EMC representative will contact you promptly.",
         });
         
         // Reset form
