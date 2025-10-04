@@ -72,7 +72,7 @@ const Navigation = () => {
                 onMouseEnter={() => setActiveDropdown(item.name)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center space-x-1 text-gray-700 hover:text-orange-600 font-medium transition-colors duration-200">
+                <button className="flex items-center space-x-1 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200">
                   <span>{item.name}</span>
                   <ChevronDown className="h-4 w-4" />
                 </button>
