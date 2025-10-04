@@ -281,9 +281,15 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "Navigation Dropdown Testing"
+    - "Hero Section Button Testing"
+    - "Contact Form Functionality"
+    - "Solutions Category Tabs"
+    - "Responsive Design Testing"
+    - "Button Interactions and UX"
   stuck_tasks: []
-  test_all: false
+  test_all: true
   test_priority: "high_first"
 
 agent_communication:
