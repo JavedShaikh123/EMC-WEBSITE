@@ -7,6 +7,7 @@ import ContactModal from './ContactModal';
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   
   const navigationItems = [
     {
