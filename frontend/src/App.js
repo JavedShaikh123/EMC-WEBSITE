@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import PodcastSection from './components/PodcastSection';
 import AboutSection from './components/AboutSection';
+import LeadershipSection from './components/LeadershipSection';
 import ResourcesSection from './components/ResourcesSection';
 import SolutionsSection from './components/SolutionsSection';
 import TestimonialsSection from './components/TestimonialsSection';
