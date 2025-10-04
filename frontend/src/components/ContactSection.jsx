@@ -144,7 +144,7 @@ const ContactSection = () => {
                           id="firstName"
                           value={formData.firstName}
                           onChange={(e) => handleInputChange('firstName', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
