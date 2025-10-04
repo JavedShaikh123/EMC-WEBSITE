@@ -23,7 +23,7 @@ const Hero = () => {
               size="lg" 
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
             >
-              Discover EMC-US
+              Discover EMC
             </Button>
             
             <Button 
