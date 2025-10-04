@@ -49,7 +49,7 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                 EMC-US
               </h3>
               <p className="text-gray-400 mt-2">
