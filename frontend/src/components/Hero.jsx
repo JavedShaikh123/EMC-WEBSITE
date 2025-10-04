@@ -48,81 +48,23 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right side - Professional Executive Images */}
-            <div className="relative">
-              {/* Main hero image */}
-              <div className="w-full max-w-lg mx-auto">
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+            {/* Right side - Beautiful Executive Headshot */}
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="w-96 h-96 rounded-full overflow-hidden shadow-2xl border-8 border-white">
                   <img
-                    src="https://images.unsplash.com/photo-1573164574511-73c773193279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
-                    alt="Executive Leadership Team"
-                    className="w-full h-96 object-cover"
+                    src="https://images.unsplash.com/photo-1689600944138-da3b150d9cb8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBleGVjdXRpdmUlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTk2MDc1NzJ8MA&ixlib=rb-4.1.0&q=85"
+                    alt="Beautiful Female Executive"
+                    className="w-full h-full object-cover object-center"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
-                  <div className="absolute bottom-6 left-6 right-6 text-white">
-                    <h3 className="font-bold text-xl mb-2">Executive Leadership</h3>
-                    <p className="text-white/80">Driving transformation across global markets</p>
+                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/10 to-transparent"></div>
+                </div>
+                
+                {/* Floating accent elements */}
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-white ml-1" />
                   </div>
-                </div>
-              </div>
-
-              {/* Floating circular images */}
-              <div className="absolute -top-8 -left-8">
-                <div className="w-24 h-24 rounded-full overflow-hidden shadow-xl border-4 border-white">
-                  <img
-                    src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
-                    alt="Female Executive"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-
-              <div className="absolute -top-4 -right-12">
-                <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl border-4 border-white">
-                  <img
-                    src="https://images.unsplash.com/photo-1562935345-5080389daccd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHN8ZW58MHx8fHwxNzU5NTYzMjkzfDA&ixlib=rb-4.1.0&q=85"
-                    alt="Business Professional"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-
-              <div className="absolute -bottom-6 -left-6">
-                <div className="w-28 h-28 rounded-full overflow-hidden shadow-xl border-4 border-white">
-                  <img
-                    src="https://images.pexels.com/photos/5990271/pexels-photo-5990271.jpeg"
-                    alt="Female Executive"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-
-              <div className="absolute -bottom-8 -right-4">
-                <div className="w-20 h-20 rounded-full overflow-hidden shadow-xl border-4 border-white">
-                  <img
-                    src="https://images.pexels.com/photos/8353821/pexels-photo-8353821.jpeg"
-                    alt="Corporate Leader"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-
-              {/* Floating stats cards */}
-              <div className="absolute top-1/2 -right-20 bg-white rounded-xl p-4 shadow-lg">
-                <div className="text-center">
-                  <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    250+
-                  </div>
-                  <div className="text-gray-600 text-xs">Executives Placed</div>
-                </div>
-              </div>
-
-              <div className="absolute bottom-1/4 -left-16 bg-white rounded-xl p-4 shadow-lg">
-                <div className="text-center">
-                  <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    25+
-                  </div>
-                  <div className="text-gray-600 text-xs">Countries</div>
                 </div>
               </div>
             </div>
