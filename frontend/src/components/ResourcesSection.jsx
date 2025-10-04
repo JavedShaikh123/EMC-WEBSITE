@@ -98,7 +98,7 @@ const ResourcesSection = () => {
                     </Badge>
                   </div>
                   <div className="absolute top-4 right-4">
-                    <Badge variant="outline" className="bg-orange-500 text-white border-orange-500">
+                    <Badge variant="outline" className="bg-pink-600 text-white border-pink-600">
                       {resource.tag}
                     </Badge>
                   </div>
