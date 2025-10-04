@@ -256,7 +256,7 @@ const NewsPressPage = () => {
                 </p>
                 <div className="space-y-4 mb-8">
                   <p className="text-gray-600">
-                    <strong>Email:</strong> media@emcindia.in
+                    <strong>Email:</strong> javed@emc-us.com | javed@emcindia.in
                   </p>
                   <p className="text-gray-600">
                     <strong>Phone:</strong> +91 9223308247 (India) | +1 856 762 0564 (USA)
