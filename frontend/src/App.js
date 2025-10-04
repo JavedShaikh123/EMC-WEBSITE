@@ -19,7 +19,6 @@ const Home = () => {
       <Hero />
       <PodcastSection />
       <AboutSection />
-      <LeadershipSection />
       <ResourcesSection />
       <SolutionsSection />
       <TestimonialsSection />
