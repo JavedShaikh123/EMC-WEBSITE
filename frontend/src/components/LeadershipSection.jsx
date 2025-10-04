@@ -50,9 +50,14 @@ const LeadershipSection = () => {
                         </div>
                         <div>
                           <p className="font-semibold text-gray-900">Email</p>
-                          <a href="mailto:javed@emcindia.in" className="text-purple-600 hover:text-purple-700 transition-colors">
-                            javed@emcindia.in
-                          </a>
+                          <div>
+                            <a href="mailto:javed@emc-us.com" className="text-purple-600 hover:text-purple-700 transition-colors block">
+                              javed@emc-us.com
+                            </a>
+                            <a href="mailto:javed@emcindia.in" className="text-purple-500 hover:text-purple-600 transition-colors text-sm">
+                              javed@emcindia.in
+                            </a>
+                          </div>
                         </div>
                       </div>
                       
