@@ -14,17 +14,19 @@ const AboutSection = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              To find the best solutions, find the right partner.
+          <div className="text-left mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              To <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">find the best solutions</span>, find the right partner.
             </h2>
             
-            <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              At EMC-US, we know it takes expertise to drive transformation – not to mention collaboration. 
-              Especially when you're looking to address specific challenges now and to grow into the future. 
-              As a leading executive management consulting partner, we combine the best people, processes 
-              and strategies to do precisely that for you and your business.
-            </p>
+            <div className="max-w-2xl">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                At EMC-US, we know it takes expertise to drive transformation – not to mention collaboration. 
+                Especially when you're looking to address specific challenges now and to grow into the future. 
+                As a leading executive management consulting partner, we combine the best people, processes 
+                and strategies to do precisely that for you and your business.
+              </p>
+            </div>
           </div>
           
           {/* Stats */}
