@@ -271,7 +271,7 @@ const ContactSection = () => {
                     <Button 
                       type="submit" 
                       disabled={isSubmitting}
-                      className="w-full bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white py-3 text-lg font-semibold rounded-xl transition-all duration-300"
+                      className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 text-lg font-semibold rounded-xl transition-all duration-300"
                     >
                       {isSubmitting ? 'Sending...' : 'Contact Us'}
                     </Button>
