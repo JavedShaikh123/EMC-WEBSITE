@@ -119,7 +119,7 @@ const SolutionsSection = () => {
                   onClick={() => setActiveCategory(category.name)}
                   className={`flex items-center px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                     activeCategory === category.name
-                      ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
+                      ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
