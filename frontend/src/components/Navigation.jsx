@@ -144,8 +144,8 @@ const Navigation = () => {
               ))}
               
               <div className="pt-4 border-t border-gray-200">
-                <Button className="w-full bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold rounded-full">
-                  Contact Us
+                <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full">
+                  Contact us
                 </Button>
               </div>
             </div>
