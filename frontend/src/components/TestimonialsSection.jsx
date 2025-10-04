@@ -85,7 +85,7 @@ const TestimonialsSection = () => {
                     
                     <div className="flex-1">
                       <div className="mb-4">
-                        <Quote className="h-8 w-8 text-orange-500 mb-2" />
+                        <Quote className="h-8 w-8 text-pink-600 mb-2" />
                         <h3 className="font-bold text-lg text-gray-900 mb-2">
                           {testimonial.category}
                         </h3>
