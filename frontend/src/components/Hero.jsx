@@ -48,11 +48,11 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right side - Circular Video Clips */}
-            <div className="relative">
-              {/* Main large circular video */}
-              <div className="relative mb-8">
-                <div className="w-80 h-80 mx-auto rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
+            {/* Right side - Large Circular Video Clips */}
+            <div className="relative flex flex-col space-y-8">
+              {/* Top row - Two large circular videos */}
+              <div className="flex justify-center space-x-8">
+                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
@@ -64,20 +64,17 @@ const Hero = () => {
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-8 w-8 text-purple-600 ml-1" />
+                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                      <Play className="h-6 w-6 text-purple-600 ml-1" />
                     </div>
                   </div>
-                  <div className="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-bold text-lg mb-1">Executive Leadership Insights</h3>
-                    <p className="text-sm text-white/80">Mohammed Javed Shaikh on talent strategy</p>
+                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="font-bold text-sm mb-1">Executive Strategy</h3>
+                    <p className="text-xs text-white/80">Leadership discussion</p>
                   </div>
                 </div>
-              </div>
 
-              {/* Smaller circular videos positioned around */}
-              <div className="absolute top-0 right-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl relative group cursor-pointer">
+                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
@@ -89,15 +86,20 @@ const Hero = () => {
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-4 w-4 text-purple-600 ml-0.5" />
+                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                      <Play className="h-6 w-6 text-purple-600 ml-1" />
                     </div>
+                  </div>
+                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="font-bold text-sm mb-1">Talent Acquisition</h3>
+                    <p className="text-xs text-white/80">Corporate interview</p>
                   </div>
                 </div>
               </div>
 
-              <div className="absolute bottom-8 left-0">
-                <div className="w-28 h-28 rounded-full overflow-hidden shadow-xl relative group cursor-pointer">
+              {/* Bottom row - Two large circular videos */}
+              <div className="flex justify-center space-x-8">
+                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
@@ -109,15 +111,17 @@ const Hero = () => {
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-4 w-4 text-purple-600 ml-0.5" />
+                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                      <Play className="h-6 w-6 text-purple-600 ml-1" />
                     </div>
                   </div>
+                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="font-bold text-sm mb-1">Business Growth</h3>
+                    <p className="text-xs text-white/80">Executive presentation</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="absolute top-1/2 right-8">
-                <div className="w-24 h-24 rounded-full overflow-hidden shadow-xl relative group cursor-pointer">
+                <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl relative group cursor-pointer">
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
@@ -129,27 +133,34 @@ const Hero = () => {
                   </video>
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-6 h-6 bg-white/90 rounded-full flex items-center justify-center">
-                      <Play className="h-3 w-3 text-purple-600 ml-0.5" />
+                    <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                      <Play className="h-6 w-6 text-purple-600 ml-1" />
                     </div>
+                  </div>
+                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="font-bold text-sm mb-1">Team Leadership</h3>
+                    <p className="text-xs text-white/80">Corporate training</p>
                   </div>
                 </div>
               </div>
 
               {/* Podcast highlight card */}
-              <div className="absolute -bottom-4 right-4 bg-white rounded-2xl p-4 shadow-xl max-w-xs">
-                <div className="flex items-center space-x-3 mb-2">
-                  <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
-                    <Play className="h-4 w-4 text-white" />
+              <div className="bg-white rounded-2xl p-6 shadow-xl">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
+                    <Play className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm">The Executive Edge</h4>
-                    <p className="text-gray-600 text-xs">Live discussions</p>
+                    <h4 className="font-bold text-gray-900">The Executive Edge Podcast</h4>
+                    <p className="text-gray-600 text-sm">Weekly corporate insights</p>
                   </div>
                 </div>
-                <p className="text-gray-700 text-xs">
-                  Join our live corporate discussions on talent acquisition strategies
+                <p className="text-gray-700 text-sm mb-4">
+                  Join Mohammed Javed Shaikh and industry experts discussing talent acquisition strategies and executive leadership.
                 </p>
+                <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
+                  Watch Latest Episode
+                </button>
               </div>
             </div>
           </div>
