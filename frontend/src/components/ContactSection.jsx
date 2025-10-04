@@ -154,7 +154,7 @@ const ContactSection = () => {
                           id="lastName"
                           value={formData.lastName}
                           onChange={(e) => handleInputChange('lastName', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
@@ -169,7 +169,7 @@ const ContactSection = () => {
                           id="email"
                           value={formData.email}
                           onChange={(e) => handleInputChange('email', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
@@ -180,7 +180,7 @@ const ContactSection = () => {
                           id="phone"
                           value={formData.phone}
                           onChange={(e) => handleInputChange('phone', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
@@ -194,7 +194,7 @@ const ContactSection = () => {
                           id="company"
                           value={formData.company}
                           onChange={(e) => handleInputChange('company', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
@@ -204,7 +204,7 @@ const ContactSection = () => {
                           id="jobTitle"
                           value={formData.jobTitle}
                           onChange={(e) => handleInputChange('jobTitle', e.target.value)}
-                          className="mt-2 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                          className="mt-2 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
                           required
                         />
                       </div>
