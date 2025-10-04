@@ -67,7 +67,12 @@ const ContactSection = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/contact`, {
+      // Get backend URL from environment
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || window.location.origin;
+      console.log('Submitting to:', `${backendUrl}/api/contact`);
+      console.log('Form data:', formData);
+      
+      const response = await fetch(`${backendUrl}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
