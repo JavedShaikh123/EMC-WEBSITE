@@ -3,10 +3,10 @@ import { Button } from './ui/button';
 
 const AboutSection = () => {
   const stats = [
-    { number: '250+', label: 'executives' },
-    { number: '150+', label: 'clients' },
-    { number: '25+', label: 'countries' },
-    { number: '12+', label: 'languages' }
+    { number: '3k', label: 'executives' },
+    { number: '244', label: 'clients' },
+    { number: '113', label: 'countries' },
+    { number: '51', label: 'languages' }
   ];
 
   return (
