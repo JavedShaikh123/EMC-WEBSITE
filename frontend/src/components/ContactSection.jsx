@@ -302,7 +302,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-white/80">contact@emc-us.com</p>
+                    <p className="text-white/80">javed@emcindia.in</p>
                   </div>
                 </div>
                 
@@ -312,7 +312,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-white/80">+1 (555) 123-4567</p>
+                    <p className="text-white/80">+1 856 762 0564 (US)</p>
+                    <p className="text-white/80">+91 9223308247 (India)</p>
                   </div>
                 </div>
                 
@@ -322,7 +323,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Headquarters</p>
-                    <p className="text-white/80">New York, NY</p>
+                    <p className="text-white/80">525 Route 73 North STE 104</p>
+                    <p className="text-white/80">Marlton, New Jersey 08053, USA</p>
                   </div>
                 </div>
               </div>
