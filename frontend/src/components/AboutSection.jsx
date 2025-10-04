@@ -20,12 +20,12 @@ const AboutSection = () => {
             </h2>
             
             <div className="max-w-2xl">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                At EMC-US, we know it takes expertise to drive transformation – not to mention collaboration. 
-                Especially when you're looking to address specific challenges now and to grow into the future. 
-                As a leading executive management consulting partner, we combine the best people, processes 
-                and strategies to do precisely that for you and your business.
-              </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              At EMC, led by Mohammed Javed Shaikh, we know it takes expertise to drive transformation – not to mention collaboration. 
+              Especially when you're looking to address specific challenges now and to grow into the future. 
+              As a leading executive management consulting partner across India, USA, and Middle East, we combine the best people, processes 
+              and strategies to do precisely that for you and your business.
+            </p>
             </div>
           </div>
           
