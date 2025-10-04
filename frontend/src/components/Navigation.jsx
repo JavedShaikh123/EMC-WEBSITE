@@ -153,7 +153,13 @@ const Navigation = () => {
               ))}
               
               <div className="pt-4 border-t border-gray-200">
-                <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full">
+                <Button 
+                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-full"
+                  onClick={() => {
+                    setIsContactModalOpen(true);
+                    setIsOpen(false);
+                  }}
+                >
                   Contact us
                 </Button>
               </div>
