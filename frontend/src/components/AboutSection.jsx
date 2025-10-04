@@ -30,10 +30,10 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-2">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-2">
                   {stat.number}
                 </div>
-                <div className="text-gray-600 font-medium uppercase tracking-wide text-sm">
+                <div className="text-gray-600 font-medium text-sm">
                   {stat.label}
                 </div>
               </div>
