@@ -302,7 +302,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-white/80">javed@emcindia.in</p>
+                    <p className="text-white/80">javed@emc-us.com</p>
+                    <p className="text-white/70 text-sm">javed@emcindia.in</p>
                   </div>
                 </div>
                 
