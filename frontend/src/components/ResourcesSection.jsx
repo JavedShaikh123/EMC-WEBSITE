@@ -105,7 +105,7 @@ const ResourcesSection = () => {
                 </div>
                 
                 <CardContent className="p-6">
-                  <h3 className="font-semibold text-lg mb-3 text-gray-900 line-clamp-2 group-hover:text-orange-600 transition-colors">
+                  <h3 className="font-semibold text-lg mb-3 text-gray-900 line-clamp-2 group-hover:text-purple-600 transition-colors">
                     {resource.title}
                   </h3>
                   
