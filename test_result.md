@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the EMC-US executive management consulting website frontend functionality"
+user_problem_statement: "Convert React/FastAPI application to HTML, CSS, JavaScript Single Page App while maintaining all functionality and design"
 
 backend:
   - task: "API Health Check"
