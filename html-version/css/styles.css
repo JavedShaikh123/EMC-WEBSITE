@@ -138,6 +138,25 @@ select:focus {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+/* Solution tabs */
+.solution-tab {
+    color: #6b7280;
+}
+
+.solution-tab:hover {
+    color: #374151;
+}
+
+.solution-tab.active {
+    background-color: white;
+    color: #9333ea;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.solution-category {
+    animation: fadeInUp 0.3s ease-out;
+}
+
 /* Mobile menu animation */
 #mobile-menu {
     animation: slideInFromTop 0.3s ease-out;
