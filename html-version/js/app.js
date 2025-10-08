@@ -287,3 +287,30 @@ document.addEventListener('keydown', function(e) {
         closeContactModal();
     }
 });
+
+// Solutions category switching functionality
+function showSolutionCategory(category) {
+    // Hide all solution categories
+    const categories = document.querySelectorAll('.solution-category');
+    categories.forEach(cat => cat.classList.add('hidden'));
+    
+    // Remove active class from all tabs
+    const tabs = document.querySelectorAll('.solution-tab');
+    tabs.forEach(tab => {
+        tab.classList.remove('active', 'bg-white', 'text-purple-600', 'shadow-sm');
+        tab.classList.add('text-gray-500', 'hover:text-gray-700');
+    });
+    
+    // Show selected category
+    const selectedCategory = document.getElementById(category + '-solutions');
+    if (selectedCategory) {
+        selectedCategory.classList.remove('hidden');
+    }
+    
+    // Add active class to selected tab
+    const selectedTab = document.getElementById(category + '-tab');
+    if (selectedTab) {
+        selectedTab.classList.add('active', 'bg-white', 'text-purple-600', 'shadow-sm');
+        selectedTab.classList.remove('text-gray-500', 'hover:text-gray-700');
+    }
+}
