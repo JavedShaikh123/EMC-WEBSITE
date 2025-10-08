@@ -340,99 +340,337 @@
                 </div>
             </section>
 
-            <!-- Other sections will be added here -->
-            <div id="about" class="min-h-screen bg-gray-50 py-20">
+            <!-- About Section -->
+            <section id="about" class="py-20 bg-gray-50">
                 <div class="container mx-auto px-4">
-                    <h2 class="text-4xl font-bold text-center mb-8">About EMC-US</h2>
-                    <p class="text-xl text-gray-700 text-center max-w-4xl mx-auto">
-                        We are a leading executive management consulting firm specializing in talent acquisition and strategic consulting services.
-                    </p>
-                </div>
-            </div>
-
-            <div id="solutions" class="min-h-screen bg-white py-20">
-                <div class="container mx-auto px-4">
-                    <h2 class="text-4xl font-bold text-center mb-8">Our Solutions</h2>
-                    <p class="text-xl text-gray-700 text-center max-w-4xl mx-auto">
-                        Comprehensive consulting solutions tailored for your business needs.
-                    </p>
-                </div>
-            </div>
-
-            <div id="contact" class="min-h-screen bg-gray-50 py-20">
-                <div class="container mx-auto px-4">
-                    <h2 class="text-4xl font-bold text-center mb-8">Contact Us</h2>
-                    <div class="max-w-2xl mx-auto">
-                        <form id="contact-form" class="space-y-6">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
-                                    <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                                <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                                    About EMC-US
+                                </span>
+                            </h2>
+                            <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+                                We are a leading executive management consulting firm specializing in talent acquisition, 
+                                strategic consulting, and business transformation services across multiple industries.
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                                <div class="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i data-lucide="users" class="h-8 w-8 text-white"></i>
                                 </div>
-                                <div>
-                                    <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
-                                    <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                                <h3 class="text-xl font-bold mb-4">Expert Team</h3>
+                                <p class="text-gray-600">Seasoned professionals with decades of combined experience in executive placement and consulting.</p>
+                            </div>
+                            
+                            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                                <div class="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i data-lucide="globe" class="h-8 w-8 text-white"></i>
                                 </div>
+                                <h3 class="text-xl font-bold mb-4">Global Reach</h3>
+                                <p class="text-gray-600">Presence across India, USA, and Middle East, serving clients worldwide with localized expertise.</p>
                             </div>
                             
-                            <div>
-                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+                            <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+                                <div class="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <i data-lucide="award" class="h-8 w-8 text-white"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-4">Proven Results</h3>
+                                <p class="text-gray-600">Track record of successful placements and strategic transformations across various industries.</p>
                             </div>
-                            
-                            <div>
-                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
-                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
-                            </div>
-                            
-                            <div>
-                                <label for="company" class="block text-sm font-medium text-gray-700 mb-2">Company</label>
-                                <input type="text" id="company" name="company" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
-                            </div>
-                            
-                            <div>
-                                <label for="jobTitle" class="block text-sm font-medium text-gray-700 mb-2">Job Title</label>
-                                <input type="text" id="jobTitle" name="jobTitle" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
-                            </div>
-                            
-                            <div>
-                                <label for="industry" class="block text-sm font-medium text-gray-700 mb-2">Industry</label>
-                                <select id="industry" name="industry" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
-                                    <option value="">Select Industry</option>
-                                    <option value="technology">Technology</option>
-                                    <option value="healthcare">Healthcare</option>
-                                    <option value="financial-services">Financial Services</option>
-                                    <option value="manufacturing">Manufacturing</option>
-                                    <option value="energy">Energy</option>
-                                    <option value="retail">Retail</option>
-                                </select>
-                            </div>
-                            
-                            <div>
-                                <label for="interest" class="block text-sm font-medium text-gray-700 mb-2">Interest</label>
-                                <select id="interest" name="interest" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent">
-                                    <option value="">Select Interest</option>
-                                    <option value="strategic-planning">Strategic Planning</option>
-                                    <option value="digital-transformation">Digital Transformation</option>
-                                    <option value="leadership-development">Leadership Development</option>
-                                    <option value="operational-excellence">Operational Excellence</option>
-                                    <option value="change-management">Change Management</option>
-                                    <option value="business-innovation">Business Innovation</option>
-                                </select>
-                            </div>
-                            
-                            <div>
-                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                                <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"></textarea>
-                            </div>
-                            
-                            <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300">
-                                Send Message
-                            </button>
-                        </form>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+            <!-- Solutions Section -->
+            <section id="solutions" class="py-20 bg-white">
+                <div class="container mx-auto px-4">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                                <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                                    Our Solutions
+                                </span>
+                            </h2>
+                            <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+                                Comprehensive consulting solutions tailored to drive your business forward through strategic excellence and operational transformation.
+                            </p>
+                        </div>
+                        
+                        <!-- Solution Categories -->
+                        <div class="mb-8">
+                            <div class="flex justify-center">
+                                <div class="inline-flex bg-gray-100 rounded-full p-1">
+                                    <button onclick="showSolutionCategory('strategy')" id="strategy-tab" class="solution-tab active px-6 py-2 rounded-full text-sm font-medium transition-all duration-300">Strategy</button>
+                                    <button onclick="showSolutionCategory('transformation')" id="transformation-tab" class="solution-tab px-6 py-2 rounded-full text-sm font-medium transition-all duration-300">Transformation</button>
+                                    <button onclick="showSolutionCategory('leadership')" id="leadership-tab" class="solution-tab px-6 py-2 rounded-full text-sm font-medium transition-all duration-300">Leadership</button>
+                                    <button onclick="showSolutionCategory('operations')" id="operations-tab" class="solution-tab px-6 py-2 rounded-full text-sm font-medium transition-all duration-300">Operations</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Solution Cards -->
+                        <div id="strategy-solutions" class="solution-category grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Strategic Planning</h3>
+                                <p class="text-gray-600 mb-4">Comprehensive strategic planning services to guide your organization's future direction and competitive positioning.</p>
+                                <a href="#" onclick="navigateTo('solutions/strategic-planning')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Business Innovation</h3>
+                                <p class="text-gray-600 mb-4">Drive innovation and growth through strategic business model development and market expansion strategies.</p>
+                                <a href="#" onclick="navigateTo('solutions/business-innovation')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                        </div>
+                        
+                        <div id="transformation-solutions" class="solution-category hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Digital Transformation</h3>
+                                <p class="text-gray-600 mb-4">Transform your business with cutting-edge digital solutions and technology integration strategies.</p>
+                                <a href="#" onclick="navigateTo('solutions/digital-transformation')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Change Management</h3>
+                                <p class="text-gray-600 mb-4">Navigate organizational change effectively with proven methodologies and stakeholder engagement strategies.</p>
+                                <a href="#" onclick="navigateTo('solutions/change-management')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                        </div>
+                        
+                        <div id="leadership-solutions" class="solution-category hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Leadership Development</h3>
+                                <p class="text-gray-600 mb-4">Develop exceptional leaders through targeted coaching and comprehensive leadership development programs.</p>
+                                <a href="#" onclick="navigateTo('solutions/leadership-development')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                        </div>
+                        
+                        <div id="operations-solutions" class="solution-category hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+                                <h3 class="text-xl font-bold mb-3 text-purple-800">Operational Excellence</h3>
+                                <p class="text-gray-600 mb-4">Optimize operations and drive efficiency through process improvement and operational excellence initiatives.</p>
+                                <a href="#" onclick="navigateTo('solutions/operational-excellence')" class="text-purple-600 font-semibold hover:text-purple-700 transition-colors">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="py-20 bg-gradient-to-br from-purple-600 via-pink-600 to-purple-700 relative overflow-hidden">
+                <!-- Background pattern -->
+                <div class="absolute inset-0 opacity-20">
+                    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.1\'%3E%3Ccircle cx=\'30\' cy=\'30\' r=\'2\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+                </div>
+                
+                <div class="container mx-auto px-4 relative z-10">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                            <!-- Left side - Form -->
+                            <div>
+                                <div class="border-0 bg-white/95 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
+                                    <div class="mb-8">
+                                        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                                            Let's be partners
+                                        </h2>
+                                        <p class="text-gray-600 text-lg">
+                                            Please complete the form and an EMC representative will contact you promptly. 
+                                            See how we can help move your business strategy forward.
+                                        </p>
+                                    </div>
+                                    
+                                    <form id="contact-form" class="space-y-6">
+                                        <!-- Name fields -->
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div>
+                                                <label for="firstName" class="text-gray-700 font-semibold block mb-2">First Name *</label>
+                                                <input
+                                                    id="firstName"
+                                                    name="firstName"
+                                                    type="text"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                            <div>
+                                                <label for="lastName" class="text-gray-700 font-semibold block mb-2">Last Name *</label>
+                                                <input
+                                                    id="lastName"
+                                                    name="lastName"
+                                                    type="text"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Email and Phone -->
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div>
+                                                <label for="email" class="text-gray-700 font-semibold block mb-2">Email *</label>
+                                                <input
+                                                    type="email"
+                                                    id="email"
+                                                    name="email"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                            <div>
+                                                <label for="phone" class="text-gray-700 font-semibold block mb-2">Phone *</label>
+                                                <input
+                                                    type="tel"
+                                                    id="phone"
+                                                    name="phone"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Company and Job Title -->
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div>
+                                                <label for="company" class="text-gray-700 font-semibold block mb-2">Company Name *</label>
+                                                <input
+                                                    id="company"
+                                                    name="company"
+                                                    type="text"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                            <div>
+                                                <label for="jobTitle" class="text-gray-700 font-semibold block mb-2">Job Title *</label>
+                                                <input
+                                                    id="jobTitle"
+                                                    name="jobTitle"
+                                                    type="text"
+                                                    required
+                                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                                />
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Industry and Interest -->
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div>
+                                                <label for="industry" class="text-gray-700 font-semibold block mb-2">Industry *</label>
+                                                <select id="industry" name="industry" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors">
+                                                    <option value="">Select industry</option>
+                                                    <option value="Technology">Technology</option>
+                                                    <option value="Healthcare">Healthcare</option>
+                                                    <option value="Financial Services">Financial Services</option>
+                                                    <option value="Manufacturing">Manufacturing</option>
+                                                    <option value="Retail">Retail</option>
+                                                    <option value="Energy">Energy</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <label for="interest" class="text-gray-700 font-semibold block mb-2">Your Interest *</label>
+                                                <select id="interest" name="interest" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors">
+                                                    <option value="">Select interest</option>
+                                                    <option value="Strategic Consulting Services">Strategic Consulting Services</option>
+                                                    <option value="Digital Transformation">Digital Transformation</option>
+                                                    <option value="Leadership Development">Leadership Development</option>
+                                                    <option value="Operational Excellence">Operational Excellence</option>
+                                                    <option value="Change Management">Change Management</option>
+                                                    <option value="Business Model Innovation">Business Model Innovation</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Message -->
+                                        <div>
+                                            <label for="message" class="text-gray-700 font-semibold block mb-2">Tell us more about your request *</label>
+                                            <textarea
+                                                id="message"
+                                                name="message"
+                                                rows="4"
+                                                required
+                                                placeholder="Please provide details about how we can help you..."
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors"
+                                            ></textarea>
+                                        </div>
+                                        
+                                        <!-- Newsletter checkbox -->
+                                        <div class="flex items-center space-x-2">
+                                            <input
+                                                type="checkbox"
+                                                id="newsletter"
+                                                name="newsletter"
+                                                class="rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                                            />
+                                            <label for="newsletter" class="text-sm text-gray-600">
+                                                Would you like to be updated on EMC-US news, events and thought leadership?
+                                            </label>
+                                        </div>
+                                        
+                                        <button 
+                                            type="submit"
+                                            class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 text-lg font-semibold rounded-xl transition-all duration-300"
+                                        >
+                                            Contact Us
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            <!-- Right side - Image and contact info -->
+                            <div class="text-white">
+                                <div class="mb-8">
+                                    <img 
+                                        src="https://images.unsplash.com/photo-1750768145390-f0ad18d3e65b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHxleGVjdXRpdmUlMjBtYW5hZ2VtZW50JTIwY29uc3VsdGluZ3xlbnwwfHx8fDE3NTk1NjMyODd8MA&ixlib=rb-4.1.0&q=85"
+                                        alt="EMC-US representative"
+                                        class="rounded-3xl shadow-2xl w-full max-w-md mx-auto"
+                                    />
+                                </div>
+                                
+                                <div class="space-y-6">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                                            <i data-lucide="mail" class="h-6 w-6"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold">Email</p>
+                                            <p class="text-white/80">javed@emc-us.com</p>
+                                            <p class="text-white/70 text-sm">javed@emcindia.in</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                                            <i data-lucide="phone" class="h-6 w-6"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold">Phone</p>
+                                            <p class="text-white/80">+1 856 762 0564 (US)</p>
+                                            <p class="text-white/80">+91 9223308247 (India)</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                                            <i data-lucide="map-pin" class="h-6 w-6"></i>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold">Headquarters</p>
+                                            <p class="text-white/80">525 Route 73 North STE 104</p>
+                                            <p class="text-white/80">Marlton, New Jersey 08053, USA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
 
         <!-- Individual Pages (Hidden by default) -->
