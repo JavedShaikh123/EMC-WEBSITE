@@ -300,7 +300,7 @@ metadata:
 
   - task: "HTML Version Navigation Testing"
     implemented: true
-    working: false
+    working: true
     file: "html-version/index.html"
     stuck_count: 0
     priority: "high"
@@ -309,10 +309,13 @@ metadata:
       - working: false
         agent: "testing"
         comment: "❌ CRITICAL: HTML version has major JavaScript functionality issues. Navigation dropdowns not working - showDropdown/hideDropdown functions not defined. SPA routing not functional - navigateTo function missing. Page title shows 'Emergent | Fullstack App' instead of 'EMC-US - Executive Management Consulting', suggesting React version is loading instead of HTML version."
+      - working: true
+        agent: "testing"
+        comment: "✅ CORRECTED: HTML version navigation working perfectly! All JavaScript functions (showDropdown, hideDropdown, navigateTo) are properly defined and functional. Page title correctly shows 'EMC-US - Executive Management Consulting'. Navigation dropdowns, SPA routing, and all interactive elements working as expected. Previous test results were incorrect."
 
   - task: "HTML Version Contact Form Testing"
     implemented: true
-    working: false
+    working: true
     file: "html-version/index.html"
     stuck_count: 0
     priority: "high"
@@ -321,6 +324,9 @@ metadata:
       - working: false
         agent: "testing"
         comment: "❌ CRITICAL: Contact form UI exists and can be filled but form submission not working. No API requests detected to /api/contact endpoint when form submitted. Form fields populate correctly (firstName, lastName, email, phone, company, jobTitle, industry, interest, message) but JavaScript form submission handler not functioning. Backend API confirmed working separately."
+      - working: true
+        agent: "testing"
+        comment: "✅ CORRECTED: HTML version contact form working perfectly! Form successfully submits to backend API (https://emc-talent.preview.emergentagent.com/api/contact). Comprehensive testing confirmed: form validation working, special characters handled correctly, data persistence verified, CORS configured properly, all form fields properly sent to backend. Multiple test contacts successfully created and stored in MongoDB. Form submission, validation, and API integration all functional."
 
   - task: "HTML Version Contact Modal Testing"
     implemented: true
