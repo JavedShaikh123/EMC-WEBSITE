@@ -299,9 +299,11 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus: []
-  stuck_tasks:
-    - "Contact Form Functionality"
+  current_focus:
+    - "HTML Version Navigation Testing"
+    - "HTML Version Contact Form Testing"
+    - "HTML Version SPA Routing Testing"
+  stuck_tasks: []
   test_all: false
   test_priority: "high_first"
 
