@@ -263,14 +263,8 @@ async function handleFormSubmit(e) {
 
 // Get backend URL - check if we're in development or production
 function getBackendUrl() {
-    // In development, you might want to use localhost
-    // In production, this should point to your actual backend
-    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-        return 'http://localhost:8001';
-    } else {
-        // Replace this with your actual production backend URL
-        return 'https://emc-talent.preview.emergentagent.com';
-    }
+    // Use the same backend URL as the React app
+    return 'https://emc-talent.preview.emergentagent.com';
 }
 
 // Close modal when clicking outside
